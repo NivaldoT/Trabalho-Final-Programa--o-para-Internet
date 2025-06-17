@@ -129,7 +129,7 @@ app.get("/cadastroEquipes",verificarAutenticacao, (requisicao,resposta) => {
             </nav>
 
             <div class="container">
-                <h1 style ="text-align: center"> Cadastro de Jogadores </h1>
+                <h1 style ="text-align: center"> Cadastro de Equipes </h1>
                 <form name="formulario" id="formulario" method="post" action="/cadastroEquipes" >
                     <div class="input-group mb-3">
                         <span class="input-group-text" id="inputGroup-sizing-default">Nome da Equipe</span>
@@ -214,7 +214,7 @@ app.post("/cadastroEquipes",verificarAutenticacao, (requisicao, resposta) => {
             </nav>
         <div class="container">
             <form name="formulario" id="formulario" method="post" action="/cadastroEquipes" novalidate>
-                <h1 style ="text-align: center"> Cadastro de Jogadores </h1>
+                <h1 style ="text-align: center"> Cadastro de Equipes </h1>
                 `;
     if(!nomeEquipe){
         conteudo +=`
